@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+nnuNet_env/
+*.egg-info/
+
+# Data & Models
+data/
+Datasets/
+*.nii.gz
+*.pth
+*.pt
+*.ckpt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
