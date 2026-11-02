@@ -75,5 +75,18 @@ python unetpp/plot_results.py --dices /path/to/results/breast_dices.npy --out_di
 - nnU-Net precision is set to 1.0 when nothing is predicted, so mean precision can be optimistic
   for missed lesions. For nnU-Net only mean metrics were recorded, no per-image distribution.
 
+## Citations
+
+If you use this code or the datasets in your research, please cite the following papers:
+
+**BUS-BRA Dataset:**
+> Wilfrido Gómez-Flores, Maria Julia Gregorio-Calas, and Wagner Coelho de Albuquerque Pereira, "BUS-BRA: A Breast Ultrasound Dataset for Assessing Computer-aided Diagnosis Systems," *Medical Physics*, vol. 51, no. 4, pp. 3110-3123, 2024. DOI: [10.1002/mp.16812](http://doi.org/10.1002/mp.16812)
+
+**BrEaST Dataset:**
+> Pawłowska, A., Ćwierz-Pieńkowska, A., Domalik, A., Jaguś, D., Kasprzak, P., Matkowski, R., Fura, Ł., Nowicki, A., & Zolek, N. A Curated benchmark dataset for ultrasound based breast lesion analysis. *Sci Data* 11, 148 (2024). DOI: [10.1038/s41597-024-02984-z](https://doi.org/10.1038/s41597-024-02984-z)
+
+**nnU-Net Framework:**
+> Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. *Nature Methods*, 18(2), 203-211.
+
 ## Contact
 [FATMANUR BIRINCI, fatmanurbirincibirinci@gmail.com]
